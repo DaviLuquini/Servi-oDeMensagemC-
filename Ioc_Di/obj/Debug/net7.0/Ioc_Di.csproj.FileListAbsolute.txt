@@ -1,0 +1,12 @@
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\bin\Debug\net7.0\Ioc_Di.deps.json
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\bin\Debug\net7.0\Ioc_Di.dll
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\bin\Debug\net7.0\Ioc_Di.pdb
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.AssemblyInfoInputs.cache
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.AssemblyInfo.cs
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.csproj.CoreCompileInputs.cache
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.dll
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\refint\Ioc_Di.dll
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.pdb
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\ref\Ioc_Di.dll
+D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\obj\Debug\net7.0\Ioc_Di.csproj.AssemblyReference.cache
