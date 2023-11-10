@@ -40,7 +40,7 @@ public class Email : IMessageService {
             Console.WriteLine("Write the Title of your Email:");
             String ClientTitle = Console.ReadLine();
             subject = ClientTitle;
-            var credentials = new BasicAWSCredentials("AKIAQ6QBXUVPAWMCIOZG", "DG1xgjH9lx9nR5QvnsDoD8ka66mbZvLUcM+m9Zyq");
+            var credentials = new BasicAWSCredentials("AKIAQ6QBXUVPAWMCIOZG", "Secret Key");
 
             using (var client = new AmazonSimpleEmailServiceClient(credentials, RegionEndpoint.SAEast1)) {
                 var htmlBody = string.Format(htmlBodyTemplate, ClientTitle, ClientMessage);
