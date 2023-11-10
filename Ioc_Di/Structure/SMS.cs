@@ -9,11 +9,8 @@ public class SMS : IMessageService {
     // TODO IMPLEMENTAR O ENVIO DE SMS VIA TWILLIO
     public async Task SendMessage(string ClientMessage) {
         var sid = "AC950a72ceda1639ec7418bb4ee9fd223b";
-<<<<<<< HEAD:Ioc_Di/Structure/SMS.cs
-        var authToken = "99264db154e29e065147dfcecfbecaad";
-=======
-        var authToken = Environment.GetEnvironmentVariable("authToken");
->>>>>>> d5b489b9ff55fcfae1010ebbffde2b7fbf264684:Ioc_Di/Domain/SMS.cs
+
+        var authToken = "SecretKey";
         
         Twilio.TwilioClient.SetUsername(
         username: sid
