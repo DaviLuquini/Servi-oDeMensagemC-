@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+CveC72o7/e2SfdE+JmMABjAxNSopAzei/t52hid2CoWoRnXIytD7Nt3DMSz5cSeJ7XAAcIpGnw5ZMFSDGa9sg==",
+  "dgSpecHash": "7w78H5/XxOLirBaE7SDtczUu4N1+2KPHFEDrlQ/cH9LWSBtufjqNzVu2gl576YzpbJkL8qIFfqRDWaoqLoe2ng==",
   "success": true,
   "projectFilePath": "D:\\IoC_Di\\Ioc_Di\\MessageTest\\MessageTest.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.core\\3.7.204.15\\awssdk.core.3.7.204.15.nupkg.sha512",
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.s3\\3.7.205.24\\awssdk.s3.3.7.205.24.nupkg.sha512",
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.simpleemail\\3.7.200.67\\awssdk.simpleemail.3.7.200.67.nupkg.sha512",
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.simpleemailv2\\3.7.202.11\\awssdk.simpleemailv2.3.7.202.11.nupkg.sha512",
     "C:\\Users\\Ciro\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Ciro\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Ciro\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

@@ -44,6 +44,22 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.204.15, )"
+            },
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.205.24, )"
+            },
+            "AWSSDK.SimpleEmail": {
+              "target": "Package",
+              "version": "[3.7.200.67, )"
+            },
+            "AWSSDK.SimpleEmailV2": {
+              "target": "Package",
+              "version": "[3.7.202.11, )"
+            },
             "Twilio": {
               "target": "Package",
               "version": "[6.14.1, )"

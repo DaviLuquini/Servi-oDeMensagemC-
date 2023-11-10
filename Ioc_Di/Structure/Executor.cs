@@ -10,31 +10,21 @@ using Twilio.Types;
 
 
 public class Executor {
-    public static void Main() {
+    public static async Task Main() {
        
-        Console.WriteLine("Write the message that do you want to send:");
+        Console.WriteLine("Write the message that you want to send:");
         String clientMessage = Console.ReadLine();
         Console.WriteLine("Which Message Service do you want to send your message? (SMS/Email)");
         String clientService = Console.ReadLine().ToUpper();
 
-        if (clientService == "EMAIL") {
-            IMessageService Email = MessageServiceFactory.CreateEmail();
+        IMessageService messageService = MessageServiceFactory.Create(clientService);
 
-            Notifier notifierViaEmail = new Notifier(Email);
-
-
-            notifierViaEmail.Notify(clientMessage);
+       if(messageService == null) {
+            Console.WriteLine("Invalid message");
+            return;
         }
-        else if (clientService == "SMS") {
-            IMessageService SMS = MessageServiceFactory.CreateSMS();
 
-            Notifier notifierViaSMS = new Notifier(SMS);
-
-            notifierViaSMS.Notify(clientMessage);
-        }
-        else {
-            Console.WriteLine("Write SMS or Email.");
-        }
+       await messageService.SendMessage(clientMessage);
     }
 }
 /*

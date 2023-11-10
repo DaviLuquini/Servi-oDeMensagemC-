@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Ioc_Di
-build_property.ProjectDir = D:\.NETcodigos\PrimeiroProjeto\IoC_Di\Ioc_Di\Ioc_Di\
+build_property.ProjectDir = D:\IoC_Di\Ioc_Di\Ioc_Di\

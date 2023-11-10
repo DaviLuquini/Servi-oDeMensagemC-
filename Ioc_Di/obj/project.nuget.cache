@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "4okXaPPXi0ilBcI6px4LI9M7ncLAPgATQU3ay4zgVXZ+tJgX6VJDVpm62P6MyVQGPpjxgvVCfLibuncwcw7uFA==",
+  "dgSpecHash": "ZPp1AO27lxjw3jrrKHsFzhwea3zxUL7VXkkyguI9pmCJpYJ5dj1FqsjdaalOgVW0cas5qqGPonUcmQywKfoVaQ==",
   "success": true,
   "projectFilePath": "D:\\IoC_Di\\Ioc_Di\\Ioc_Di\\Ioc_Di.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.core\\3.7.204.15\\awssdk.core.3.7.204.15.nupkg.sha512",
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.s3\\3.7.205.24\\awssdk.s3.3.7.205.24.nupkg.sha512",
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.simpleemail\\3.7.200.67\\awssdk.simpleemail.3.7.200.67.nupkg.sha512",
+    "C:\\Users\\Ciro\\.nuget\\packages\\awssdk.simpleemailv2\\3.7.202.11\\awssdk.simpleemailv2.3.7.202.11.nupkg.sha512",
     "C:\\Users\\Ciro\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Ciro\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.19.0\\microsoft.identitymodel.abstractions.6.19.0.nupkg.sha512",
     "C:\\Users\\Ciro\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.19.0\\microsoft.identitymodel.jsonwebtokens.6.19.0.nupkg.sha512",

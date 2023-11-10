@@ -8,10 +8,55 @@
     ".NETCoreApp,Version=v7.0": {
       "Ioc_Di/1.0.0": {
         "dependencies": {
+          "AWSSDK.Core": "3.7.204.15",
+          "AWSSDK.S3": "3.7.205.24",
+          "AWSSDK.SimpleEmail": "3.7.200.67",
+          "AWSSDK.SimpleEmailV2": "3.7.202.11",
           "Twilio": "6.14.1"
         },
         "runtime": {
           "Ioc_Di.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.204.15": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.204.15"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.24": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.15"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.24"
+          }
+        }
+      },
+      "AWSSDK.SimpleEmail/3.7.200.67": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.15"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleEmail.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.200.67"
+          }
+        }
+      },
+      "AWSSDK.SimpleEmailV2/3.7.202.11": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.15"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleEmailV2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.202.11"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -231,6 +276,34 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AWSSDK.Core/3.7.204.15": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjborZRu2OdTyuCRcu3qGtjyiodWCGkCb6USZdoCmVUap540HhANMTMkSNtHukhg7D60GqScylct1Y8HK+YZwA==",
+      "path": "awssdk.core/3.7.204.15",
+      "hashPath": "awssdk.core.3.7.204.15.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jcT+Vev1bjzTDftYF8P0BVux1VDFpk5U+/EiCCfXLnuiLQ9+0qVWHBKVqgw/4v03twEAwj0aksdP08d0Arm+5w==",
+      "path": "awssdk.s3/3.7.205.24",
+      "hashPath": "awssdk.s3.3.7.205.24.nupkg.sha512"
+    },
+    "AWSSDK.SimpleEmail/3.7.200.67": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sqBPPe95e5y/VthJAmH8HRr50yk1DKqnxAimC9EhjyrIP/p/z0kxInEJCtjBqc3thnbPZ0v3Zs6FDUR5SJS7nw==",
+      "path": "awssdk.simpleemail/3.7.200.67",
+      "hashPath": "awssdk.simpleemail.3.7.200.67.nupkg.sha512"
+    },
+    "AWSSDK.SimpleEmailV2/3.7.202.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AMmrCPmEAPPj8r67a9DThD84i9tBNewRF6ktsbuxEw6MGFAfIE/Zv3Pvjt989wR8doSXq7qYQsCNytjEwBPX0A==",
+      "path": "awssdk.simpleemailv2/3.7.202.11",
+      "hashPath": "awssdk.simpleemailv2.3.7.202.11.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

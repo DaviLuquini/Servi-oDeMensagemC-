@@ -13,4 +13,10 @@
     <SourceRoot Include="C:\Users\Ciro\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">C:\Users\Ciro\.nuget\packages\awssdk.core\3.7.204.15</PkgAWSSDK_Core>
+    <PkgAWSSDK_SimpleEmailV2 Condition=" '$(PkgAWSSDK_SimpleEmailV2)' == '' ">C:\Users\Ciro\.nuget\packages\awssdk.simpleemailv2\3.7.202.11</PkgAWSSDK_SimpleEmailV2>
+    <PkgAWSSDK_SimpleEmail Condition=" '$(PkgAWSSDK_SimpleEmail)' == '' ">C:\Users\Ciro\.nuget\packages\awssdk.simpleemail\3.7.200.67</PkgAWSSDK_SimpleEmail>
+    <PkgAWSSDK_S3 Condition=" '$(PkgAWSSDK_S3)' == '' ">C:\Users\Ciro\.nuget\packages\awssdk.s3\3.7.205.24</PkgAWSSDK_S3>
+  </PropertyGroup>
 </Project>
